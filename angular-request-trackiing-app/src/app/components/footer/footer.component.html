@@ -1,0 +1,32 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xl-3 col-md-12 col-lg-12">
+            <h2>Logo</h2>
+        </div>
+        <div class="col-xl-3 col-md-12 col-lg-12">
+            <h2>@Tunis</h2>
+            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Phone : +216 99999999<br> Email : Info@RequestTracking.net </p>
+            
+        </div>
+        <div class="col-xl-3 col-md-12 col-lg-12">
+            <h2>{{today | date}}</h2>
+            <h3 class="dateTime">{{ today | date:'mediumTime' }}</h3>
+        </div>
+        <div class="col-xl-3 col-md-12 col-lg-12">
+            <div class="cont">
+                <div class="stars">
+                    <h2>Rating Us</h2>
+                    <ngx-star-rating [(ngModel)]="rating3" [id]="'rating3'" (click)="showSuccess()"></ngx-star-rating >
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+
+    
+        
+    

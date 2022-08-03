@@ -1,0 +1,163 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: #A5678E;
+    transition: .5s ease-in-out;
+}
+
+.brand-title 
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: .5rem;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-links 
+{
+    height: 100%;
+    transition: .5s all ease-in-out;
+}
+
+.navbar-links ul 
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li 
+{
+    list-style: none;
+}
+
+.navbar-links li a 
+{
+    display: block;
+    text-decoration: none;
+    color: #A5678E;
+    padding: 1rem;
+    padding-right:1.5rem;
+    font-weight: 600;
+    font-size: medium;
+    transition: .5s all ease-in-out; 
+}
+
+.navbar-links li:hover 
+{
+    margin-top: -3px;
+}
+
+.toggle-button 
+{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar 
+{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+button[mat-raised-button]
+{
+    position: relative;
+    top:5px;
+    background-color:#A5678E;
+    color:white;
+    height:100%;
+    font-weight: 600;
+}
+/* scroll navbar */
+nav.fixed
+{
+    background-color: #a5678e8c;
+}
+nav.fixed .brand-title 
+{
+    color:white;
+}
+nav.fixed .navbar-links li a 
+{
+    color:white;
+}
+nav.fixed button[mat-raised-button]
+{
+    color:#A5678E;
+    background-color: white;
+}
+/* /scroll navbar */
+@media (max-width: 992px) 
+{
+.navbar 
+{
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #a5678e8c;
+}
+nav .brand-title 
+{
+    color:white;
+}
+.toggle-button 
+{
+    display: flex;
+    margin-right:30px;
+    cursor: pointer;
+}
+
+.navbar-links 
+{
+    display: none;
+    width: 100%;
+}
+
+.navbar-links ul 
+{
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-links ul li 
+{
+    text-align: center;
+}
+.navbar-links li:hover 
+{
+    margin-top: -3px;
+    background-color: #a5678e96;
+}
+.navbar-links ul li a 
+{
+    padding: .5rem 1rem;
+    color:white;
+    word-spacing: 1rem;
+}
+
+.navbar-links.active 
+{
+    display: flex;
+}
+}

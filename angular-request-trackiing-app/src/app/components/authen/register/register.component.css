@@ -1,0 +1,130 @@
+.container-fluid {
+    color: #312d30;
+    background-color: #faf4f9;
+
+}
+
+.login-card {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
+}
+
+.login-form {
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 3%;
+    border:2px solid #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+span{
+    color:#E866D7;
+}
+#images-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width:100%;
+    
+}
+
+.form-group .small-group {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.form-group{
+    margin-top:3%;
+}
+
+
+h4 {
+    font-weight: bold;
+    color: #212529;
+    font-size: 24px;
+    text-align: center;
+    font-size: large;
+    margin-bottom:2%;
+}
+
+.labels {
+    font-weight: 400;
+    font-size: 18px;
+    color: #c69dd6;
+    margin-bottom: 5%;
+}
+
+.account-check,.link-active
+{
+    cursor: pointer;
+}
+
+
+
+.btn-register{
+    background-color: #E866D7;
+    color:white;
+    border:1px solid #E866D7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+.btn-register:hover{
+    background-color: #c95ea2;
+    border:1px solid#c95ea2;
+}
+
+
+.account-check{
+    color: gray;
+    margin-top: 1%;
+}
+
+.ms-2 {
+    text-decoration: none;
+    color:rgb(200, 71, 233);
+    margin-left:8%;
+}
+.ms-2:hover{
+    color:#a84484;
+}
+
+
+#connexion{
+margin-top: 5%;
+}
+
+
+.link-active{
+    text-decoration: none;
+    color:#A5678E;
+
+}
+.link:hover{
+    text-decoration: none;
+    color:#A5678E;
+}
+@media only screen and (max-width: 1199px)
+{
+    .container-fluid
+    {
+        height:100%
+    }
+}

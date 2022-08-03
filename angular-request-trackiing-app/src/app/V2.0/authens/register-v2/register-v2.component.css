@@ -1,0 +1,85 @@
+*
+{
+    color:#455a64
+}
+.form-content
+{
+    margin-top: 5%;
+}
+.background
+{
+    background-image: url("../../../../assets/Images/register.png");
+    height: 45rem;
+    width: 40rem;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;  
+    opacity: .7;
+}
+.input-group-text
+{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+}
+
+input[type="radio"]:checked
+{
+    background-color: #ff725e;
+}
+.form-check
+{
+    margin-left:25%;
+    width: 30%;
+}
+
+.btn
+{
+    width: 45%;
+}
+.Sign-btn 
+{
+    border: 2px solid #ff725e;
+    color:#ff725e;
+}
+.Sign-btn:hover
+{
+    background-color: #ff725e;
+    color:white;
+}
+.Login-btn
+{
+    margin-left:10%;
+    background-color:#ff725e ;
+    color: white;
+} 
+@media only screen and (max-width: 1201px)
+{
+    .background
+    {
+        height: 0;
+        width: 0;
+    }
+    .background2
+    {
+        pointer-events: none;
+        position: absolute;
+        background-image: url("../../../../assets/Images/register.png");
+        height: 60vh;
+        width: 50%;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size:cover;
+        opacity: .2;  
+    }
+}
+@media only screen and (max-width: 623px)
+{
+    .background2
+    {
+        width: 80%;
+    }
+}

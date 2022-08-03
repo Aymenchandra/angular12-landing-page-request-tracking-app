@@ -1,0 +1,28 @@
+h2,h3,p,.cont
+{
+  text-align: center;
+}
+h2
+{
+    padding-top:30px;
+    color:rgba(0, 0, 0, 0.575);
+    font-weight: 600;
+}
+p,.dateTime
+{
+    color:rgba(0, 0, 0, 0.692);
+}
+.dateTime
+{
+  font-size: large;
+  font-weight: 600;
+}
+.cont {
+    width: 100%;
+    color:rgba(0, 0, 0, 0.575);
+  }
+  
+  div.stars {
+    width: 270px;
+    display: inline-block;
+  }
